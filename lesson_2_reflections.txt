@@ -1,0 +1,3 @@
+Q:What happens when you initialize a repository? Why do you need to do it?
+A: When we initialise a repository a new .git folder is created in which meta files are stored.
+we need to do it if we want to track the progress.
