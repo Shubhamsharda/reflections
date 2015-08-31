@@ -1,3 +1,22 @@
 Q:What happens when you initialize a repository? Why do you need to do it?
 A: When we initialise a repository a new .git folder is created in which meta files are stored.
 we need to do it if we want to track the progress.
+Q:How is the staging area different from the working directory and the repository? What value do you think it offers?
+A:staging area is the area between working directory and repository. it gives us time to make descision as to which changes are to be commited.
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A:we can add new changes to the staging area as we wish.
+Q:What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A:A branch may be helpful if we want to work on differnt versions of a file. Branches would help prove the necessary atitecture to help with that. They help keep the different.
+
+Viewing the commit history
+
+The full command Caroline types to see the visual representation of the commit history is git log --graph --oneline master coins.
+
+Q:How do the diagrams help you visualize the branch structure?
+better understand which commits are aceccible and which are not.
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:Merging two branches together joins two branches logiclayy.we represent it that way to help better visulise the branches and the subsequent merge.
+
+Q:What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: pros: We do not need to do the manual job again and again.
+cons: sometimes unintended changes can be made.
